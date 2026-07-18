@@ -118,12 +118,6 @@ body {
             justify-content: center;
     }
         
-}
-.video-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
 .video-container {
     position: relative;
     width: 100%;
