@@ -3,48 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeuWeb$it& &#128526;</title>
+    <title>Dorival Jr. - Portfólio</title>
     <link rel="stylesheet" href="style.css">
- </head>
- <body>
-    <video autoplay loop muted playsinline class="video-fundo">
-         <source src="imagen/video.mp4" type="video/mp4">
-    </video>
-    <div class="video-overlay"></div>
-    <header class="cabecalho">
-         <div class="logo">
-            <strong>Dorival Jr.</strong> <span>Desenvolvedor Full Stack Jr. & Especialista em Suporte de Hardware</span>
-         </div>
+</head>
+<body>
 
-         <nav class="Menu">
-            <a href="#portfolio">Portfólio</a>
-            <a href="#curriculo">Currículo</a>
-            <a href="#blog">Blog</a>
-         </nav>
-    </header>                                          
+    <div class="video-overlay"></div>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <strong>Dorival Jr.</strong> <span>Desenvolvedor Full Stack Jr. & Especialista em Suporte de Hardware</span>
+        </div>
+        
+        <nav class="Menu">
+            <div class="dropdown">
+                <a href="portfolio.html" class="dropdown-btn">Portfólio</a>
+                <div class="dropdown-content">
+                    <a href="portfolio-projetos.html">Meus Projetos</a>
+                    <a href="portfolio-design.html">Designs</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="curriculo.html" class="dropdown-btn">Currículo</a>
+                <div class="dropdown-content">
+                    <a href="curriculo-academico.html">Acadêmico</a>
+                    <a href="curriculo-profissional.html">Experiência</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="blog.html" class="dropdown-btn">Blog</a>
+                <div class="dropdown-content">
+                    <a href="blog-tecnologia.html">Tecnologia</a>
+                    <a href="blog-tutoriais.html">Tutoriais</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <main class="conteudo">
+        <video autoplay loop muted playsinline class="video-fundo">
+            <source src="imagen/video.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+
         <div class="perfil">
             <img src="imagen/foto3664.jpg" alt="DORIVAL Jr.">
         </div>
+        
         <div class="texto">
             <h1>Olá!</h1>
-            <p>Discente em Tecnologia da Informação com formação técnica em andamento em Desenvolvimento
-                de Sistemas. Busco constante inserção no mercado profissional, alinhando uma sólida proficiência
-                em lógica de programação, desenvolvimento de software e manutenção avançada de hardware.
-                Unifico competências técnicas a soft skills consolidadas, como comunicação assertiva, inteligência
-                social e sinergia em equipe, cultivadas ao longo da experiência progressivas. Foco em dedicação
-                contínua, diligência na resolução analítica de problemas lógicos e colaboração ativa para a entrega
-                de soluções eficientes no segmento técnico.
-            </p>
-
+            <p>Discente em Tecnologia da Informação com formação técnica em andamento em Desenvolvimento de Sistemas. Busco constante inserção no mercado profissional, alinhando uma sólida proficiência em lógica de programação, desenvolvimento de software e manutenção avançada de hardware. Unifico competências técnicas a soft skills consolidadas, como comunicação assertiva, inteligência social e sinergia em equipe, cultivadas ao longo da experiência progressivas. Foco em dedicação contínua, diligence na resolução analítica de problemas lógicos e colaboração ativa para a entrega de soluções eficientes no segmento técnico.</p>
+            
             <div class="div-botoes">
-                <a href="#portfolio" class="btn-verde">Portfólio</a>
-                <a href="#curriculo" class="btn-laranja">Currículo</a>
-                <a href="#blog" class="btn-roxo">Blog</a>
-
+                <a href="portfolio.html" class="btn-verde">Portfólio</a>
+                <a href="curriculo.html" class="btn-laranja">Currículo</a>
+                <a href="blog.html" class="btn-roxo">Blog</a>
             </div>
         </div>
     </main>
+
 </body>
 </html>
