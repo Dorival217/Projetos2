@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blog Dorival Jr.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <strong>Dorival Jr.</strong> <span>Desenvolvedor Full Stack Jr. & Especialista em Suporte de Hardware</span>
+        </div>
+        
+        <nav class="Menu">
+            <a href="index.html" class="dropdown-btn">Início</a>
+
+            <div class="dropdown">
+                <a href="portfolio.html" class="dropdown-btn">Portfólio</a>
+                <div class="dropdown-content">
+                    <a href="portfolio-projetos.html">Meus Projetos</a>
+                    <a href="portfolio-design.html">Designs</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="curriculo.html" class="dropdown-btn">Currículo</a>
+                <div class="dropdown-content">
+                    <a href="curriculo-academico.html">Acadêmico</a>
+                    <a href="curriculo-profissional.html">Experiência</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="blog.html" class="dropdown-btn active-page">Blog</a>
+                <div class="dropdown-content">
+                    <a href="blog-tecnologia.html">Tecnologia</a>
+                    <a href="blog-tutoriais.html">Tutoriais</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="conteudo-projetos">
+        <h1 class="titulo-pagina">ENSAIO DE METODOLOGIA & ENGENHARIA DE SOFTWARE</h1>
+
+        <div class="grid-projetos">
+
+            <div class="card-projeto card-texto-unico">
+                <div class="info-projeto">
+                    <h3>Desenvolvimento iterativo e Pesquisa-Ação</h3>
+                    <p>Como a Metodologia da Pesquisa-Ação antecipou as Metodologias Ágeis e o Design
+Centrado no Usuário<br><br>Metodologia Científica & Práticas Ágeis de Software | Leitura: ~7 min<br><br>No livro Metodologia da Pesquisa-Ação, o sociólogo Michel Thiollent consolida uma abordagem
+empírica baseada na resolução de problemas reais em estreita cooperação entre pesquisadores e atores
+sociais. Décadas após a sua publicação, a estrutura conceitual da Pesquisa-Ação revela-se
+surpreendentemente idêntica aos pilares fundamentais do desenvolvimento moderno de software, como
+o Manifesto Ágil, o Scrum, o eXtreme Programming (XP) e a Engenharia de Usabilidade.
+<br><br>1. O Ciclo Empírico: Diagnóstico, Ação e Avaliação<br><br>a-Ação rejeita o modelo tradicional de investigação científica — focado na observação distante e estática
+— em prol de um processo dinâmico e espiralado. Segundo Thiollent, a metodologia articula-se em ciclos contínuos
+de fase exploratória, diagnóstico, planejamento da ação, execução e avaliação dos resultados.<br><br>"A pesquisa-ação é um tipo de pesquisa social com base empírica que é concebida e realizada em estreita
+associação com uma ação ou com a resolução de um problema coletivo..."<br><br>— Michel Thiollent, Metodologia da Pesquisa-Ação
+Esta dinâmica espiralada é a base exata do desenvolvimento iterativo e incremental em engenharia de software:<br><br>Ciclo Scrum (Sprint): Planejamento da Sprint (Diagnóstico/Planejamento), Desenvolvimento do Incremento
+(Ação/Execução), Sprint Review e Retrospectiva (Avaliação e Ajuste).<br><br>TDD (Test-Driven Development): O ciclo Red-Green-Refactor reflete em microescala a validação contínua da
+hipótese através da ação e da avaliação do código.<br><br>2. Participação dos Atores Sociais vs. Design Centrado no Usuário
+(UX/UI)<br><br>Thiollent enfatiza que na Pesquisa-Ação os sujeitos pesquisados deixam de ser meros "objetos de estudo" para
+tornarem-se participantes ativos e coautores** do processo de transformação. Sem o engajamento dos atores
+Pesquisa-Ação de Michel Thiollent e Engenharia de Software Página 1 de 3sociais, 
+qualquer diagnóstico ou solução proposta pelo pesquisador tende ao fracasso por desconexão com a
+realidade do campo.<br><br>Na tecnologia, a falha histórica do modelo em Cascata (Waterfall) derivou precisamente do isolamento dos
+desenvolvedores em relação aos usuários finais.<br><br>O PRINCÍPIO DA COAUTORIA NO SOFTWARE<br><br>Assim como na Pesquisa-Ação, o desenvolvimento de produtos digitais de sucesso exige a participação ativa
+do usuário (Co-design, pesquisas de UX, testes de usabilidade e Product Discovery contínuo). O software não é
+construído para o usuário, mas com o usuário.<br><br>3. Ação Prática com Rigor Conceitual<br><br>Um dos grandes méritos de Thiollent é demonstrar que a busca por uma solução prática imediata não anula o rigor
+científico; pelo contrário, a prática é a fonte primária de aprendizado e validação conceitual.
+Na engenharia de software, este princípio manifesta-se no conceito de MVP (Produto Mínimo Viável) e na
+filosofia Lean Software Development:<br><br>Construir-Medir-Aprender: Lançar uma versão funcional reduzida no mercado para testar uma hipótese real
+em vez de gastar meses elaborando especificações teóricas de requisitos que podem se provar obsoletas.<br><br>Feedback Loops Curtos: Quanto mais rápido o código atinge o ambiente real, mais rápido se obtém
+conhecimento factual sobre o comportamento do sistema e o comportamento do usuário.<br><br>4. Resolução de Problemas Complexos (Domínio Cynefin)<br><br>Thiollent destaca que a Pesquisa-Ação é indicada para contextos onde os problemas são complexos, mal definidos
+e mutáveis, requerendo flexibilidade e capacidade de adaptação constante durante a intervenção.<br><br>Na ciência da computação moderna, reconhece-se que a maioria dos sistemas de software opera em domínios
+complexos. Tentar prever todas as variáveis antes da implementação é inviável. A abordagem de Thiollent valida o
+uso de arquiteturas evolutivas, integração contínua (CI/CD) e adaptação contínua ao escopo em vez de contratos de
+escopo fechado e rígido.<br><br>5. Matriz Comparativa: Pesquisa-Ação & Engenharia de Software<br><br><br>TABELA****<br><br><br>Conclusão: A Ciência do Fazer e do Código<br><br>A leitura de Michel Thiollent sob a ótica da ciência da computação demonstra que a criação de tecnologia não é
+apenas um ato isolado de engenharia exata, mas um processo sociotécnico de investigação-ação.
+Ao alinhar o rigor da verificação contínua com a abertura para o aprendizado prático e participativo, a Pesquisa-
+Ação serve como uma fundamentação teórica e epistemológica robusta para o motivo pelo qual as metodologias
+ágeis e o design centrado no usuário dominam a indústria moderna de tecnologia.</p>
+<a href="#" class="link-projeto">Ler Tutorial</a>
+                </div>
+            </div>
+            <div class=""></div>
+        </div>
+
+    </main>
+
+       
+
+</body>
+</html>
+
